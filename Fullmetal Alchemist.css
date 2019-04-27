@@ -1,0 +1,53 @@
+body{
+    background-color: #660000;
+    font-family: cursive;
+    font-size: 20px;
+    
+}
+
+h1{ text-align: center;
+}
+h2{text-align: center;
+}
+p { text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.EH{display:grid;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+grid-template-columns: 1fr 1fr 1fr;
+grid-column-gap: 5%;}
+
+.EH p{
+    text-align: center;
+}
+.Homunculi {display: grid; 
+            width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+grid-template-columns: 1fr 1fr 1fr;
+grid-column-gap: 5%}
+
+.Hommunculi p{
+    text-align: center;
+}
+
+.Extra {display: grid; 
+            width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+grid-template-columns: 1fr 1fr 1fr;
+grid-column-gap: 5%} 
+
+.Extra p {text-align:center;
+}
+
+
+
